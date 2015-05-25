@@ -19,7 +19,7 @@ gem 'bootstrap-sass'
 gem 'masonry-rails', '~>0.2.0'
 
 group :development, :test do
-  gem 'sqllite3'
+  gem 'sqlite3'
 end
 
 group :production do
