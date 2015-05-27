@@ -18,6 +18,8 @@ gem 'bootstrap-sass'
 
 gem 'masonry-rails', '~>0.2.0'
 
+gem 'mail_form'
+
 group :development, :test do
   gem 'sqlite3'
 end
