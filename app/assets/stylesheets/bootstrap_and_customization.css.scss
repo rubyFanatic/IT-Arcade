@@ -3,7 +3,7 @@
 $body-bg: #ecf0f1;
 $font-family-sans-serif:'Lato','Raleway' 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-weight: 400;
-$navbar-height:  50px;
+$navbar-height: 60px;
 $navbar-default-bg:  white;
 $navbar-default-brand-color:  #c0392b;
 $brand-primary: #c0392b;
@@ -27,7 +27,7 @@ font-weight: bold;
 
 .carousel-inner{
 width:100%;
-max-height: 500px !important; 
+max-height: 500px !important;
 }
 
 .carousel .item {
@@ -40,15 +40,18 @@ width: 100%;
 height: auto;
 }
 
-.col-lg-4 h2{
+
+/* Column below carousel CONTENT
+-------------------------------------------------- */
+.col-md-4 h2{
 text-align: center;
 }
 
-.col-lg-4 p{
+.col-md-4 p{
 text-align: center;
 }
 
-.col-lg-4 img{
+.col-md-4 img{
 display: block;
 margin: 0 auto;
 }
@@ -63,14 +66,14 @@ margin: 0 auto;
 }
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.marketing .col-md-4 {
   text-align: center;
   margin-bottom: 20px;
 }
 .marketing h2 {
   font-weight: normal;
 }
-.marketing .col-lg-4 p {
+.marketing .col-md-4 p {
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -79,7 +82,7 @@ margin: 0 auto;
 ------------------------- */
 
 .featurette-divider {
-  margin: 30px 0; /* Space out the Bootstrap <hr> more */
+  margin: 10px 0; /* Space out the Bootstrap <hr> more */
 }
 .featurette {
   padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
@@ -134,4 +137,15 @@ margin: 0 auto;
     line-height: 1.4;
   }
 
+}
+
+/*Careers Page Styles
+---------------------------------------------------------*/
+.jumbotron{
+text-align: left;
+width: 80%;
+}
+
+.career-container img{
+float: right;
 }

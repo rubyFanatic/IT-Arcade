@@ -22,7 +22,9 @@
 				<li>
 					<%= link_to "About", about_path %>
 				</li>
-				
+				<li>
+					<%= link_to "Careers", career_path %>
+				</li>
 				<li>
 					<%= link_to "Contact", contact_path %>
 				</li>
@@ -30,8 +32,8 @@
 		</div><!-- /.navbar-collapse -->
 	
 	</div> <!-- /container -->
-	<!-- Don't load carousel for contact page -->
-	<% if !current_page?(contact_path) %>
+	<!-- Don't load carousel for contact, career pages -->
+	<% if (!current_page?(contact_path) && !current_page?(career_path))  %>
 	<%= render 'layouts/carousel'%>
 	<%end%>
 </nav>
