@@ -5,7 +5,7 @@ $font-family-sans-serif:'Lato','Raleway' 'Helvetica Neue', Helvetica, Arial, san
 $font-weight: 400;
 $navbar-height: 60px;
 $navbar-default-bg:  white;
-$navbar-default-brand-color:  #c0392b;
+$navbar-default-brand-color: #c0392b;
 $brand-primary: #c0392b;
 
 $panel-panel-default: white;
@@ -14,8 +14,8 @@ $panel-panel-default: white;
 @import 'bootstrap';
 
 body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
+padding-bottom: 40px;
+color: #5a5a5a;
 }
 
 .navbar-brand{
@@ -61,43 +61,43 @@ margin: 0 auto;
 
 /* Pad the edges of the mobile views a bit */
 .marketing {
-  padding-left: 15px;
-  padding-right: 15px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-md-4 {
-  text-align: center;
-  margin-bottom: 20px;
+text-align: center;
+margin-bottom: 20px;
 }
 .marketing h2 {
-  font-weight: normal;
+font-weight: normal;
 }
 .marketing .col-md-4 p {
-  margin-left: 10px;
-  margin-right: 10px;
+margin-left: 10px;
+margin-right: 10px;
 }
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-  margin: 10px 0; /* Space out the Bootstrap <hr> more */
+margin: 10px 0; /* Space out the Bootstrap <hr> more */
 }
 .featurette {
-  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
-  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+overflow: hidden; /* Vertically center images part 2: clear their floats. */
 }
 .featurette-image {
-  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
 }
 
 /* Give some space on the sides of the floated elements so text doesn't run right into it. */
 .featurette-image.pull-left {
-  margin-right: 40px;
+margin-right: 40px;
 }
 .featurette-image.pull-right {
-  margin-left: 40px;
+margin-left: 40px;
 }
 featurette-image{
 height: 512px;
@@ -106,10 +106,10 @@ width: 512px;
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
+font-size: 30px;
+font-weight: 300;
+line-height: 1;
+letter-spacing: -1px;
 }
 
 
@@ -118,28 +118,28 @@ width: 512px;
 
 @media (min-width: 768px) {
 
-  /* Remve the edge padding needed for mobile */
-  .marketing {
-    padding-left: 0;
-    padding-right: 0;
-  }
+/* Remve the edge padding needed for mobile */
+.marketing {
+padding-left: 0;
+padding-right: 0;
+}
 
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-    margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-  }
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
+/* Navbar positioning foo */
+.navbar-wrapper {
+margin-top: 20px;
+margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+/* The navbar becomes detached from the top, so we round the corners */
+.navbar-wrapper .navbar {
+border-radius: 4px;
+}
 
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
+/* Bump up size of carousel content */
+.carousel-caption p {
+margin-bottom: 20px;
+font-size: 21px;
+line-height: 1.4;
+}
 
 }
 
@@ -147,9 +147,37 @@ width: 512px;
 ---------------------------------------------------------*/
 .jumbotron{
 text-align: left;
-width: 80%;
+width: 75%;
+padding-right: 2%;
 }
 
 .career-container img{
 float: right;
+}
+
+/*Side Nav for Services Page Styles
+---------------------------------------------------------*/
+
+.side-nav{
+color: black;
+float: right;
+width: 20%
+}
+
+.jumbotron-side ul li {
+float: left;
+color: black;
+clear: left;
+a{
+color:black;
+display: block;
+}
+}
+
+.big_data_solutions-container .col-md-9 p{
+font-size:20px;
+}
+
+.cloud-solutions-container .col-md-9 p{
+font-size:20px;
 }
