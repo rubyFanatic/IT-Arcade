@@ -1,0 +1,48 @@
+<div class = "contact-page">
+ <div class = "panel-heading">
+   <h1>Contact Us</h1>
+ <div>
+ 	<hr class="featurette-divider">
+<div class= "col-md-9" >
+<div class = "panel-body">
+<%= form_for @message do |f| %>
+  <% if @message.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= "#{pluralize(@message.errors.count, "error")} prohibited this message from being sent:" %></h2>
+      <ul>
+        <% @message.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      <ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+     Your Name<i>(required)</i>
+    <%= f.text_field :name, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    Your email<i>(required)</i>
+    <%= f.email_field :email, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    Subject<i>(required)</i>
+    <%= f.text_field :subject, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+   What would you like to contact us about?
+    <%= f.text_area :content, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= f.submit "Send", class: "btn btn-primary" %>
+  </div>
+<% end %>
+
+</div>
+</div>
+</div>			
+						

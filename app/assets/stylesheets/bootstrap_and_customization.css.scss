@@ -143,12 +143,28 @@ line-height: 1.4;
 
 }
 
+.navbar .container{
+width: 100%;
+ .navbar-text {
+position: absolute;
+bottom: 0;
+left: 0;
+}
+}
+footer a {
+color: #999;
+}
+footer a:hover {
+color: #efefef;
+}
+
 /*Careers Page Styles
 ---------------------------------------------------------*/
-.jumbotron{
+.career-content{
 text-align: left;
 width: 75%;
 padding-right: 2%;
+font-size:20px;
 }
 
 .career-container img{
@@ -174,10 +190,51 @@ display: block;
 }
 }
 
+/*Big data page Specific styles
+---------------------------------------------------------*/
 .big_data_solutions-container .col-md-9 p{
 font-size:20px;
 }
 
+/*Cloud solutions page Specific styles
+---------------------------------------------------------*/
 .cloud-solutions-container .col-md-9 p{
 font-size:20px;
 }
+
+/*Perfromance Tuning solutions 
+---------------------------------------------------------*/
+.performance-solutions-container .col-md-9 p{
+font-size:20px;
+}
+
+.performance-solutions-container .col-md-9 ul li{
+font-size:17px;
+}
+
+/*Business Analytics solutions
+---------------------------------------------------------*/
+.business-solutions-container .col-md-9 p{
+font-size:20px;
+}
+
+/*Contact Us Page Specific content
+---------------------------------------------------------*/
+.contact-page .col-md-9{
+float: left;
+width: 60%;
+}
+
+.side-nav-contact .jumbotron-side ul li{
+font-size: 20px;
+text-align: left;
+}
+
+/*Contact Us Side Nav
+---------------------------------------------------------*/
+.side-nav-contact{
+color:black;
+float: right;
+width: 20%
+}
+
