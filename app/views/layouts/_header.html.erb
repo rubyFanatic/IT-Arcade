@@ -1,5 +1,5 @@
-<nav class="navbar navbar-default" role="navigation">
-	<div class="container">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
 
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -10,7 +10,6 @@
 				<span class="icon-bar"></span>
 			</button>
 			<%= link_to "IT-Arcade", root_path, class: "navbar-brand"%>
-		
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -24,7 +23,7 @@
 				</li>
 				<li class="dropdown">
 					
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services We Provide <b class="caret"></b></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><%= link_to "Enterprise Portal Solutions", enterprise_portal_solutions_path %></li>
 						<li><%= link_to "Cloud Solutions", cloud_solutions_path %></li>
@@ -45,13 +44,16 @@
 		</div><!-- /.navbar-collapse -->
 	
 	</div> <!-- /container -->
+	</nav> 
+	
+	<div class="nav-carousel">
 	<!-- Don't load carousel except for Home and About Page -->
 	<% if (current_page?(root_path) || current_page?(about_path)) %>
 	<%= render 'layouts/carousel'%>
 	<%end%>
-	
-	 	
-</nav>
+</div>
+	 	<hr class="featurette-divider">
+
 
 <%= render '/layouts/footer'%>
 
