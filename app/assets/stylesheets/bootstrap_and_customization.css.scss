@@ -28,7 +28,23 @@ color: #34495e;
 font-weight: bold;
 }
 
+/* Alerts 
+-------------------------------------------------- */
+.container .alert{
+padding-top: 40px;
+}
 
+.alert-notice{
+padding-top: 50px;
+padding-bottom: 10px;
+background-color: #dff0d8;
+width: 60%;
+}
+
+.alert-warning{
+padding-top: 40px;
+background-color: #fcf8e3;
+}
 /* Carousel CONTENT
 -------------------------------------------------- */
 
@@ -54,13 +70,14 @@ height: auto;
 text-align: center;
 }
 
-.col-md-4 p{
-text-align: center;
-}
-
 .col-md-4 img{
 display: block;
 margin: 0 auto;
+}
+
+.container .row .col-md-4 .headline{
+text-align: center;
+font-size: 18px;
 }
 
 /* MARKETING CONTENT
