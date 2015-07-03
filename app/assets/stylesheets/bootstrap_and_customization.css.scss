@@ -18,7 +18,7 @@ padding-bottom: 50px;
 color: #5a5a5a;
 }
 
-/* Navbar 
+/* Navbar
 -------------------------------------------------- */
 .navbar-default .navbar-nav > li > a{
 font-size: 16px;
@@ -28,7 +28,7 @@ color: #34495e;
 font-weight: bold;
 }
 
-/* Alerts 
+/* Alerts
 -------------------------------------------------- */
 .container .alert{
 padding-top: 40px;
@@ -164,7 +164,6 @@ margin-bottom: 20px;
 font-size: 21px;
 line-height: 1.4;
 }
-
 }
 
 .navbar .container{
@@ -227,7 +226,7 @@ font-size:20px;
 font-size:20px;
 }
 
-/*Perfromance Tuning solutions 
+/*Perfromance Tuning solutions
 ---------------------------------------------------------*/
 .performance-solutions-container .col-md-9 p{
 font-size:20px;
@@ -260,5 +259,11 @@ text-align: left;
 .side-nav-contact{
 color:black;
 float: right;
-width: 20%
+width: 20%;
+h3 {
+  font-weight: 400;
+}
+.company-address{
+font-size: 20px;
+}
 }
