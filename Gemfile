@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.0'
+ruby '2.3.0'
 gem 'rails', '4.2.0'
 
 gem 'sass-rails', '~> 4.0.0'
@@ -12,7 +12,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 gem 'turbolinks'
-
+gem 'sendgrid'
 gem 'jbuilder', '~> 1.2'
 
 gem 'bootstrap-sass'
@@ -33,4 +33,3 @@ end
 group :doc do
   gem 'sdoc', require: false
 end
-
