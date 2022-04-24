@@ -1,23 +1,23 @@
 source 'https://rubygems.org'
 
-ruby '2.3.0'
-gem 'rails', '4.2.0'
+ruby '3.1.2'
+gem 'rails', '7.0.1'
 
-gem 'sass-rails', '~> 5.0.0'
+gem 'sass-rails'
 
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier'
 
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails'
 
 gem 'jquery-rails'
 
 gem 'turbolinks'
 gem 'sendgrid'
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder'
 
 gem 'bootstrap-sass'
 
-gem 'masonry-rails', '~>0.2.0'
+gem 'masonry-rails'
 
 gem 'puma'
 
